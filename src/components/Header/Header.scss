@@ -53,25 +53,6 @@
 
   .nav {
     @media screen and (max-width: 768px) {
-      transform: translateY(100%);
-      position: fixed;
-      bottom: 0;
-      width: 100%;
-      background-color: #fff;
-      z-index: 1;
-      transition: transform 0.5s ease; // Add a transition for smooth appearance
-    }
-  }
-  
-  @media screen and (max-width: 431px) {
-    .nav {
-      transform: translateY(0);
-    }
-  }
-  
-
-  .nav {
-    @media screen and (max-width: 768px) {
       transform: translateY(600px);
       position: fixed;
       bottom: 0;
@@ -118,11 +99,10 @@
     }
   
     .nav {
-      width: 200px;
+      width: 100%;
     }
   
     .nav__list {
-      width: 200px;
       justify-content: center;
     }
   
@@ -133,19 +113,25 @@
   
     .silder-img {
       width: 100%;
-      margin-left: 0;
     }
   }
   
   
-  @media screen and (max-width: 431px) {
-    .lang .silder-img {
-      width: 300px;
-      margin-left: 22px;
+  .lang {
+    padding: 8px;
+    font-size: 16px;
+
+    @media screen and (max-width: 400px) {
+      .silder-img {
+        width: 300px;
+        margin-left: 22px;
+      }
     }
   }
 }
 
 .silder-img {
   object-fit: contain;
+  width: 100%;
 }
+
