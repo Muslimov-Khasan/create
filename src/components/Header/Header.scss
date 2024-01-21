@@ -72,7 +72,11 @@
 
   @media screen and (max-width: 768px) {
     .nav__list {
-      margin-left: 10px; // Adjust as needed
+      transform: translateY(100px);
+    }
+
+    .categoriya__btn {
+      padding: 14px;
     }
   }
   
@@ -83,10 +87,7 @@
   }
   
   @media screen and (max-width: 431px) {
-    .box {
-      flex-direction: column;
-      transform: translateY(0);
-    }
+    
   
     .categoriya__btn {
       width: 100%;
@@ -98,8 +99,6 @@
     }
   
     .nav {
-      transform: translateY(0);
-      position: static;
       width: 100%;
     }
   
