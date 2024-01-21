@@ -10,7 +10,7 @@
 
     @media screen and (max-width: 768px) {
       flex-direction: column;
-      transition: transform 0.5s ease;
+      transition: transform 0.5s ease; // Add a transition for smooth appearance
     }
   }
 
@@ -21,7 +21,7 @@
   .categoriya__btn {
     width: 135px;
     height: 44px;
-    padding: 12px 14px;
+    padding: 12px 14px; 
     border-radius: 8px;
     background-color: #25b6791a;
     color: #25b679;
@@ -35,24 +35,27 @@
   }
 
   .search {
-    width: 100%; /* Adjusted for responsiveness */
+    width: 367px;
     height: 44px;
     padding: 12px 20px;
     border-radius: 8px;
     border: none;
-    gap: 10px; /* Adjusted for responsiveness */
+    gap: 160px;
     outline: none;
     background-color: #eee;
 
     @media screen and (max-width: 768px) {
-      width: auto;
+      .search {
+        width: auto;
+      }
     }
   }
 
   .nav {
     @media screen and (max-width: 768px) {
-      transform: translateY(0); /* Adjusted for responsiveness */
-      position: relative; /* Adjusted for responsiveness */
+      transform: translateY(600px);
+      position: fixed;
+      bottom: 0;
       width: 100%;
       background-color: #fff;
       z-index: 1;
@@ -65,35 +68,66 @@
     margin: 0 auto;
     text-align: center;
     margin-top: 18px;
-    transform: translateY(900px);
   }
 
   @media screen and (max-width: 768px) {
     .nav__list {
-      margin-left: 10px;
+      margin-left: 10px; // Adjust as needed
     }
   }
-
+  
   @media screen and (max-width: 608px) {
     .nav__list {
-      margin-left: 5px;
+      margin-left: 5px; // Adjust as needed
     }
   }
-
+  
   @media screen and (max-width: 431px) {
+    .box {
+      flex-direction: column;
+      transform: translateY(0);
+    }
+  
+    .categoriya__btn {
+      width: 100%;
+      margin-top: 10px;
+    }
+  
+    .search {
+      width: 100%;
+    }
+  
+    .nav {
+      transform: translateY(0);
+      position: static;
+      width: 100%;
+    }
+  
     .nav__list {
-      // justify-content: center;
+      margin-left: 0;
+      justify-content: center;
+    }
+  
+    .lang {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .silder-img {
+      width: 100%;
+      margin-left: 0;
     }
   }
-
+  
+  
   .lang {
     padding: 8px;
     font-size: 16px;
 
-    @media screen and (max-width: 431px) {
+    @media screen and (max-width: 400px) {
       .silder-img {
-        width: 100%; /* Adjusted for responsiveness */
-        margin-left: 0; /* Adjusted for responsiveness */
+        width: 300px;
+        margin-left: 22px;
       }
     }
   }
@@ -103,3 +137,4 @@
   object-fit: contain;
   width: 100%;
 }
+
