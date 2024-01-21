@@ -21,7 +21,7 @@
   .categoriya__btn {
     width: 135px;
     height: 44px;
-    padding: 12px 14px; 
+    padding: 12px 14px;
     border-radius: 8px;
     background-color: #25b6791a;
     color: #25b679;
@@ -45,9 +45,7 @@
     background-color: #eee;
 
     @media screen and (max-width: 768px) {
-      .search {
-        width: auto;
-      }
+      width: auto;
     }
   }
 
@@ -68,30 +66,24 @@
     margin: 0 auto;
     text-align: center;
     margin-top: 18px;
-  }
 
-  @media screen and (max-width: 768px) {
-    .nav__list {
+    @media screen and (max-width: 768px) {
       margin-left: 10px; // Adjust as needed
     }
-  }
-  
-  @media screen and (max-width: 608px) {
-    .nav__list {
+    @media screen and (max-width: 608px) {
       margin-left: 5px; // Adjust as needed
     }
   }
-  
+
   @media screen and (max-width: 431px) {
     .nav__list {
       display: flex;
       justify-content: center;
       width: auto;
-      background-color: red;
-     margin: 0 auto;
+      margin: 0 auto;
     }
   }
-  
+
   .lang {
     padding: 8px;
     font-size: 16px;
@@ -109,4 +101,3 @@
   object-fit: contain;
   width: 100%;
 }
-
