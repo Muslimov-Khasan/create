@@ -62,22 +62,10 @@
       transition: transform 0.5s ease; // Add a transition for smooth appearance
     }
   }
-  
+
   @media screen and (max-width: 431px) {
     .nav {
       transform: translateY(0);
-    }
-  }
-  
-
-  .nav {
-    @media screen and (max-width: 768px) {
-      transform: translateY(600px);
-      position: fixed;
-      bottom: 0;
-      width: 100%;
-      background-color: #fff;
-      z-index: 1;
     }
   }
 
@@ -98,45 +86,42 @@
       padding: 14px;
     }
   }
-  
+
   @media screen and (max-width: 608px) {
     .nav__list {
       margin-left: 5px; // Adjust as needed
     }
   }
-  
+
   @media screen and (max-width: 431px) {
-    
-  
     .categoriya__btn {
       width: 100%;
       margin-top: 10px;
     }
-  
+
     .search {
       width: 100%;
     }
-  
+
     .nav {
       width: 100%;
     }
-  
+
     .nav__list {
       justify-content: center;
     }
-  
+
     .lang {
       width: 100%;
       text-align: center;
     }
-  
+
     .silder-img {
       width: 100%;
       margin-left: 0;
     }
   }
-  
-  
+
   .lang {
     padding: 8px;
     font-size: 16px;
@@ -154,4 +139,3 @@
   object-fit: contain;
   width: 100%;
 }
-
