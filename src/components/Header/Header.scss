@@ -86,8 +86,6 @@
   }
   
   @media screen and (max-width: 431px) {
-    
-  
     .categoriya__btn {
       margin-top: 10px;
     }
@@ -96,10 +94,14 @@
       width: 100%;
     }
   
+    .nav {
+      width: 100%;
+    }
+  
     .nav__list {
       width: 100vh;
       margin: 0 auto;
-      transform: translateX(60px);
+      transform: translateY(-10px); /* Updated from translateX(20px) */
     }
   
     .lang {
@@ -111,6 +113,19 @@
       width: 100%;
     }
   }
+  
+  .lang {
+    padding: 8px;
+    font-size: 16px;
+  
+    @media screen and (max-width: 400px) {
+      .silder-img {
+        width: 300px;
+        margin-left: 22px;
+      }
+    }
+  }
+  
   
   
   .lang {
