@@ -83,12 +83,11 @@
   }
   
   @media screen and (max-width: 431px) {
-    body {
-      background-color: red;
-    }
     .nav__list {
+      display: flex;
+      justify-content: center;
+      width: auto;
       background-color: red;
-
      margin: 0 auto;
     }
   }
