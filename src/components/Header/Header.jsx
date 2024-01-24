@@ -28,29 +28,47 @@ const Header = () => {
             placeholder="Mahsulotlarni izlash"
           />
           <nav className="nav">
+            <button className="categoriya__btn">Kategoriya</button>
             <ul className="nav__list">
-                <button className="categoriya__btn">Kategoriya</button>
               <li className="nav__item">Kirish</li>
               <li className="nav__item">Qo’shish</li>
               <li className="nav__item">Sevimlilar</li>
             </ul>
-          </nav>
           <select className="lang">
             <option value="ru">ruscha</option>
             <option value="kirilcha">kirilcha</option>
             <option value="O’zbekcha">O’zbekcha</option>
           </select>
+          </nav>
         </div>
       </div>
       <Slider {...settings}>
         <div>
-          <img className="silder-img" src={Hero} alt="" width={1248} height={450} />
+          <img
+            className="silder-img"
+            src={Hero}
+            alt=""
+            width={1248}
+            height={450}
+          />
         </div>
         <div>
-          <img className="silder-img" src={Hero} alt="" width={1248} height={450} />
+          <img
+            className="silder-img"
+            src={Hero}
+            alt=""
+            width={1248}
+            height={450}
+          />
         </div>
         <div>
-          <img className="silder-img" src={Hero} alt="" width={1248} height={450} />
+          <img
+            className="silder-img"
+            src={Hero}
+            alt=""
+            width={1248}
+            height={450}
+          />
         </div>
       </Slider>
     </div>
