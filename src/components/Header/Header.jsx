@@ -29,7 +29,7 @@ const Header = () => {
           />
           <nav className="nav">
             <ul className="nav__list">
-              <button className="categoriya__btn">Kategoriya</button>
+              {/* <button className="categoriya__btn">Kategoriya</button> */}
               <li className="nav__item">Kirish</li>
               <li className="nav__item">Qo’shish</li>
               <li className="nav__item">Sevimlilar</li>
