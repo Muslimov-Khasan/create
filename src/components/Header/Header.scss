@@ -62,6 +62,11 @@
       transition: transform 0.5s ease; // Add a transition for smooth appearance
     }
   }
+  .silder-img {
+    @media screen and (max-width: 768px) {
+      width: 700px;
+    }
+  }
 
   .nav__list {
     list-style: none;

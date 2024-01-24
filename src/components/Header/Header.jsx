@@ -7,15 +7,15 @@ import Hero from "../../assets/Hero.png";
 import "./Header.scss";
 
 const Header = () => {
-  // const settings = {
-  //   dots: true,
-  //   infinite: true,
-  //   speed: 500,
-  //   slidesToShow: 1,
-  //   slidesToScroll: 1,
-  //   autoplay: true,
-  //   autoplaySpeed: 2000,
-  // };
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000,
+  };
 
   return (
     <div className="contianer">
@@ -42,7 +42,7 @@ const Header = () => {
           </select>
         </div>
       </div>
-      {/* <Slider {...settings}>
+      <Slider {...settings}>
         <div>
           <img className="silder-img" src={Hero} alt="" width={1248} height={450} />
         </div>
@@ -52,7 +52,7 @@ const Header = () => {
         <div>
           <img className="silder-img" src={Hero} alt="" width={1248} height={450} />
         </div>
-      </Slider> */}
+      </Slider>
     </div>
   );
 };
