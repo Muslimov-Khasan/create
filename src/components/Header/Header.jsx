@@ -27,19 +27,22 @@ const Header = () => {
             type="search"
             placeholder="Mahsulotlarni izlash"
           />
+          <div className="wrapper__navs">
+
           <nav className="nav">
-            <button className="categoriya__btn">Kategoriya</button>
             <ul className="nav__list">
+            <button className="categoriya__btn">Kategoriya</button>
               <li className="nav__item">Kirish</li>
               <li className="nav__item">Qo’shish</li>
               <li className="nav__item">Sevimlilar</li>
             </ul>
+          </nav>
+          </div>
           <select className="lang">
             <option value="ru">ruscha</option>
             <option value="kirilcha">kirilcha</option>
             <option value="O’zbekcha">O’zbekcha</option>
           </select>
-          </nav>
         </div>
       </div>
       <Slider {...settings}>
