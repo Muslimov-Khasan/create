@@ -131,8 +131,9 @@
   }
 
   .wrapper__silder{
+    display: flex;
+    justify-content: center;
     margin: 0 auto;
-    transform: translateX(60px);
     background-color: gold;
   }
 
