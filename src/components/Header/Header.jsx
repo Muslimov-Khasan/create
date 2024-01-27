@@ -47,7 +47,7 @@ const Header = () => {
         </div>
       </div>
 
-      {/* <Slider {...settings}>
+      <Slider {...settings}>
         <div>
           <img
             className="slider-img" // Corrected from "silder-img"
@@ -75,7 +75,7 @@ const Header = () => {
             height={450}
           />
         </div>
-      </Slider> */}
+      </Slider>
     </div>
   );
 };
