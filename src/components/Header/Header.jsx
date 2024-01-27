@@ -46,6 +46,7 @@ const Header = () => {
           </select>
         </div>
       </div>
+        <div className="wrapper__silder">
 
       <Slider {...settings}>
         <div>
@@ -76,6 +77,7 @@ const Header = () => {
           />
         </div>
       </Slider>
+        </div>
     </div>
   );
 };

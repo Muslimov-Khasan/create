@@ -60,6 +60,10 @@
     .search {
       width: auto;
     }
+
+    .wrapper__silder{
+      margin: 0 auto;
+    }
   }
 }
 
@@ -126,8 +130,12 @@
     text-align: center;
   }
 
+  .wrapper__silder{
+    margin: 0 auto;
+  }
+
   .slider-img {
-    width: 75%;
+    width: 100%;
     height: auto;
   }
 }
