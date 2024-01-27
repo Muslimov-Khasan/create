@@ -46,38 +46,37 @@ const Header = () => {
           </select>
         </div>
       </div>
-        <div className="wrapper__silder">
-
-      <Slider {...settings}>
-        <div>
-          <img
-            className="slider-img" // Corrected from "silder-img"
-            src={Hero}
-            alt=""
-            width={1248}
-            height={450}
-          />
-        </div>
-        <div>
-          <img
-            className="slider-img" // Corrected from "silder-img"
-            src={Hero}
-            alt=""
-            width={1248}
-            height={450}
-          />
-        </div>
-        <div>
-          <img
-            className="slider-img" // Corrected from "silder-img"
-            src={Hero}
-            alt=""
-            width={1248}
-            height={450}
-          />
-        </div>
-      </Slider>
-        </div>
+      <div className="wrapper__slider">
+        <Slider {...settings}>
+          <div>
+            <img
+              className="slider-img"
+              src={Hero}
+              alt=""
+              width={1248}
+              height={450}
+            />
+          </div>
+          <div>
+            <img
+              className="slider-img"
+              src={Hero}
+              alt=""
+              width={1248}
+              height={450}
+            />
+          </div>
+          <div>
+            <img
+              className="slider-img"
+              src={Hero}
+              alt=""
+              width={1248}
+              height={450}
+            />
+          </div>
+        </Slider>
+      </div>
     </div>
   );
 };
