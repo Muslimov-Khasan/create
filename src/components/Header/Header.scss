@@ -143,17 +143,9 @@
   }
 
   .slider-img {
-    width: 100%;
+    width: 600px;
     height: auto;
   }
-}
 
-/* Default styles for slider images */
-.slider-img {
-  width: 100%;
-
-  @media screen and (max-width: 768px) {
-    height: auto;
-  }
 }
 
