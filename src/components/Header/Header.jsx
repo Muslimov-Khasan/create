@@ -30,7 +30,9 @@ const Header = () => {
           <div className="wrapper__navs">
             <nav className="nav">
               <ul className="nav__list">
-                <button className="categoriya__btn">Kategoriya</button>
+                <li className="nav__item">
+                  <button className="categoriya__btn">Kategoriya</button>
+                </li>
                 <li className="nav__item">Kirish</li>
                 <li className="nav__item">Qo’shish</li>
                 <li className="nav__item">Sevimlilar</li>
@@ -45,10 +47,10 @@ const Header = () => {
         </div>
       </div>
 
-      <Slider {...settings}>
+      {/* <Slider {...settings}>
         <div>
           <img
-            className="slider-img"
+            className="slider-img" // Corrected from "silder-img"
             src={Hero}
             alt=""
             width={1248}
@@ -57,7 +59,7 @@ const Header = () => {
         </div>
         <div>
           <img
-            className="slider-img"
+            className="slider-img" // Corrected from "silder-img"
             src={Hero}
             alt=""
             width={1248}
@@ -66,14 +68,14 @@ const Header = () => {
         </div>
         <div>
           <img
-            className="slider-img"
+            className="slider-img" // Corrected from "silder-img"
             src={Hero}
             alt=""
             width={1248}
             height={450}
           />
         </div>
-      </Slider>
+      </Slider> */}
     </div>
   );
 };
